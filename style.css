@@ -1,13 +1,48 @@
+* {
+    background-color: #acacac8a;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #666;
+    line-height: 2;
+    justify-content: center;
+    text-align: center;
+}
+
 h1{
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+    color: black;
+    background-color: #8f8e8e98;
 }
+
 h2{
-    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+    color: black;
+    
 }
-.img{
-    display: block;
-    text-align: center;
+
+.nomes_balada {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    color: black;
+    
 }
-p{
-    text-align: center;
+
+.listas {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+    color: black;
+    
 }
