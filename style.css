@@ -56,8 +56,37 @@ h2{
     border-radius: 5px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+.container {
+    display: flex;
+  }
+  
+  .container img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .container table {
+    width: 50%;
+    float: left;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
