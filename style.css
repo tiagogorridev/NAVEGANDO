@@ -4,8 +4,6 @@
     color: black;
     margin: 10px;
     font-weight: bolder;
-
-    
 }
 
 body {
@@ -31,15 +29,11 @@ h2{
 
 .nomes_balada {
     font-size: 22px;
-
     padding: 5px;
     border-radius: 5px;
     width: fit-content;
     display: inline-block;
-
-    background-color: gray;
-
-    
+    background-color: gray;   
 }
 
 .listas {
