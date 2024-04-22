@@ -13,12 +13,12 @@ body {
     font-size: 17px;
     color: #666;
     line-height: 2;
+    text-align: justify;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-
     padding: 5px;
     border-radius: 5px;
 }
