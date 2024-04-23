@@ -9,6 +9,7 @@
 
   margin: 10px;
   line-height: 2;
+  overflow-x: hidden
 }
 
 section.imagem {
@@ -24,6 +25,7 @@ section#img01 {
   background-position: right center;
   width: 1920px;
   height: 500px;
+  
 }
 
 section#img02 {
