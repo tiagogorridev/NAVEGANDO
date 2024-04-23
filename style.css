@@ -152,7 +152,6 @@ table {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    
   }
   
   th {
@@ -180,4 +179,5 @@ table {
     border: solid thick rgb(0, 0, 0);
     border-radius: 1em;
     box-shadow: rgb(255, 0, 93) 0.5em 0.5em 0.5em;
+    padding-top: 15px;
   }
