@@ -1,53 +1,77 @@
 * {
-    justify-content: center;
-    text-align: center;
-    color: black;
-    margin: 10px;
-    font-weight: bolder;
-}
 
-body {
-    font-family: sans-serif;
-    font-size: 17px;
-    color: #666;
-    line-height: 2;
-    text-align: justify;
+  background-color:  black;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #666;
+
+  justify-content: center;
+  text-align: center;
+
+  margin: 10px;
+  line-height: 2;
 }
+  
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    padding: 5px;
-    border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: black;
+
+  padding: 5px;
+  border-radius: 5px;
+
+  text-align: center;
+
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
 }
 
 h2{
-    font-size: 20px;
-    background-color: gray;
+  font-size: 20px;
+  color: black;
+
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
 }
 
-.nomes_balada {
+.nomes_balada, .titulos {
     font-size: 22px;
     padding: 5px;
     border-radius: 5px;
     width: fit-content;
     display: inline-block;
-    background-color: gray;   
-}
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
 
 .listas {
     font-size: 15px;
-    background-color: lightgray;
-    padding: 0px;
+    background-color:  white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .listas1 {
     text-align: center;
     font-size: 15px;
-    background-color: lightgray;
+    background-color:  white;
     margin: auto;
     border-radius: 5px;
 }
+
+li, .p {
+  background-color: white;
+ }
 
 .container {
     display: flex;
@@ -68,12 +92,19 @@ h2{
 table {
     border-collapse: collapse;
     width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
   }
   
   th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
   }
   
   th {
@@ -83,4 +114,16 @@ table {
   
   tr:nth-child(even) {
     background-color: #f2f2f2;
+  }
+
+  #copyright {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    display: inline-block;
+    color: #666;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
   }
