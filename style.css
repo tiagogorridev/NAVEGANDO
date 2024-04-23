@@ -90,9 +90,10 @@ h2{
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    background-color: #d3d3d3;
+    background-color: #FF005D;
+    padding-left: 25px;
+    padding-right: 25px;
   }
-
 
 .listas {
   font-size: 22px;
