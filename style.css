@@ -143,9 +143,11 @@ table {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
+    margin: 0 auto;
   }
   
   th, td {
+    color: black;
     border: 1px solid black;
     padding: 8px;
     text-align: center;
@@ -180,4 +182,5 @@ table {
     border-radius: 1em;
     box-shadow: rgb(255, 0, 93) 0.5em 0.5em 0.5em;
     padding-top: 15px;
+    padding-bottom: 15px;
   }
