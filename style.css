@@ -1,6 +1,4 @@
 * {
-
-
   font-size: 17px;
   font-family: sans-serif;
   font-weight: bolder;
@@ -12,6 +10,7 @@
   margin: 10px;
   line-height: 2;
 }
+
 section.imagem {
   background-color: rgba(0, 0, 0, 0.616);
   color: white;
@@ -19,7 +18,6 @@ section.imagem {
   background-size: cover;
   background-attachment: fixed;
 }
-
 
 section#img01 {
   background-image: url('Imagens/shed.jpg.webp');
