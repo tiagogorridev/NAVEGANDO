@@ -1,6 +1,5 @@
 * {
 
-  background-color:  black;
 
   font-size: 17px;
   font-family: sans-serif;
@@ -13,7 +12,49 @@
   margin: 10px;
   line-height: 2;
 }
-  
+section.imagem {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+section#img01 {
+  background-image: url('Imagens/shed.jpg.webp');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+
+section#img02 {
+  background-image: url('Imagens/55.webp');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+
+section#img03 {
+  background-image: url('Imagens/rw.jpg');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+
+section#img04 {
+  background-image: url('Imagens/55.jpeg');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
+
+section#img05 {
+  background-image: url('Imagens/vibe.png');
+  background-position: right center;
+  width: 1920px;
+  height: 500px;
+}
 
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,10 +96,15 @@ h2{
 
 
 .listas {
-    font-size: 15px;
-    background-color:  white;
-    padding: 5px;
-    border-radius: 5px;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .listas1 {
