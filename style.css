@@ -92,7 +92,7 @@ h2{
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    background-color: #FF005D;
+    background-color: #de2e6fb0;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -178,9 +178,9 @@ table {
   }
 
   .sombras{
-    border: solid thick rgb(0, 0, 0);
+    border: solid thick rgba(0, 0, 0, 0.838);
     border-radius: 1em;
-    box-shadow: rgb(255, 0, 93) 0.5em 0.5em 0.5em;
+    box-shadow: rgba(208, 7, 81, 0.53) 0.5em 0.5em 0.5em;
     padding-top: 15px;
     padding-bottom: 15px;
   }
