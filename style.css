@@ -1,17 +1,54 @@
+/* BODY */
+
 * {
   font-size: 17px;
-  font-family: sans-serif;
-  font-weight: bolder;
-  color: #666;
-
+  font-family: sans-serif;  color: #666;
   justify-content: center;
   text-align: center;
-
   margin: 10px;
   line-height: 2;
-  overflow-x: hidden
+  overflow-x: hidden;
+  text-decoration: none;
+  margin: 10px;
+}
+body {
+  background: black;
 }
 
+
+
+/* HEADER */
+header {
+  padding: 20px 70px;
+  background: black;
+}
+.navigation {
+  display: flex;
+  align-items: center; /*alinha horizontalmente*/
+  justify-content: space-between; /*colocar um elemento do outro lado*/
+}
+.navigation .logo {
+  width: 60px;
+}
+.navigation ul {
+  display: flex; /*deixa os itens alinhados*/
+  align-items: center;
+  gap: 60px;
+}
+.navigation ul li a {
+  color: #888;
+  font-weight: 600px;
+  padding-bottom: 4px;
+}
+/*mudar quando passa o mouse*/
+.navigation ul li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+
+
+/* IMAGENS DAS BALADAS */
 section.imagem {
   background-color: rgba(0, 0, 0, 0.616);
   color: white;
@@ -19,7 +56,6 @@ section.imagem {
   background-size: cover;
   background-attachment: fixed;
 }
-
 section#img01 {
   background-image: url('Imagens/shed.jpg.webp');
   background-position: right center;
@@ -27,28 +63,24 @@ section#img01 {
   height: 500px;
   
 }
-
 section#img02 {
   background-image: url('Imagens/55.webp');
   background-position: right center;
   width: 1920px;
   height: 500px;
 }
-
 section#img03 {
   background-image: url('Imagens/rw.jpg');
   background-position: right center;
   width: 1920px;
   height: 500px;
 }
-
 section#img04 {
   background-image: url('Imagens/55.jpeg');
   background-position: right center;
   width: 1920px;
   height: 500px;
 }
-
 section#img05 {
   background-image: url('Imagens/vibe.png');
   background-position: right center;
@@ -56,131 +88,103 @@ section#img05 {
   height: 500px;
 }
 
+
+
+/* TITULOS */
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
-  color: black;
-
-  padding: 5px;
-  border-radius: 5px;
-
-  text-align: center;
-
-  background-color: white;
-  padding: 5px;
-  border-radius: 5px;
-  display: flex;
+  color: #de2e6fb0;
+  padding-left: 20rem;
 }
-
 h2{
   font-size: 20px;
-  color: black;
-
-  background-color: white;
   padding: 5px;
   border-radius: 5px;
   display: flex;
 }
-
 .nomes_balada, .titulos {
     font-size: 22px;
-    padding: 5px;
-    border-radius: 5px;
+    font-weight: bolder;
     width: fit-content;
     display: inline-block;
-    color: black;
-    background-color: white;
     padding: 5px;
     border-radius: 5px;
-    background-color: #de2e6fb0;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #1d1d1f;
   }
 
+/* LISTAS */
 .listas {
   font-size: 22px;
   padding: 5px;
   border-radius: 5px;
   width: fit-content;
   display: inline-block;
-  color: black;
-  background-color: white;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.listas1, .p {
+    text-align: center;
+    font-size: 15px;
+    background-color: #1d1d1f;
+    margin: 10px 15px 20px 25px;
+    border-radius: 5px;
+}
+
+/* TABLE20 */
+.container {
+    display: flex;
+  }
+.container img {
+  width: 30%;
+  height: 40%;
+  float: left;
+  margin-right: 20px;
+}
+.container table {
+  width: 50%;
+  float: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  background-color: #1d1d1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+th {
+  background-color: #1d1d1f;
+  font-weight: bold;
+}
+
+/* FOOTER */
+#copyright {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  color: #666;
+  background-color: #1d1d1f;
   padding: 5px;
   border-radius: 5px;
 }
 
-.listas1 {
-    text-align: center;
-    font-size: 15px;
-    background-color:  white;
-    margin: auto;
-    border-radius: 5px;
+/* SOMBRAS */
+.sombras{
+  border: solid thick rgba(0, 0, 0, 0.838);
+  border-radius: 1em;
+  box-shadow: rgba(208, 7, 81, 0.53) 0.5em 0.5em 0.5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-
-li, .p {
-  background-color: white;
- }
-
-.container {
-    display: flex;
-  }
-  
-  .container img {
-    width: 30%;
-    height: 40%;
-    float: left;
-    margin-right: 20px;
-  }
-  
-  .container table {
-    width: 50%;
-    float: left;
-  }
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0 auto;
-  }
-  
-  th, td {
-    color: black;
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-
-  #copyright {
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 5px;
-    width: fit-content;
-    display: inline-block;
-    color: #666;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .sombras{
-    border: solid thick rgba(0, 0, 0, 0.838);
-    border-radius: 1em;
-    box-shadow: rgba(208, 7, 81, 0.53) 0.5em 0.5em 0.5em;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
